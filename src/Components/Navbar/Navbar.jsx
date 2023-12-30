@@ -18,19 +18,20 @@ const Navbar = () => {
                         {
                             ulLinks
                         }
+                        <button className="btn my-2">Connect with us</button>
                     </ul>
                 </div>
                 <a className="text-xl font-bold"><span className="text-cyan-400">Elite</span>Fin</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-bold">
-                   {
-                    ulLinks
-                   }
+                    {
+                        ulLinks
+                    }
                 </ul>
             </div>
-            <div className="navbar-end gap-3">
-                <button className="btn">Connect with us</button>
+            <div className="navbar-end gap-3  ">
+                <button className="btn hidden md:flex">Connect with us</button>
                 <button className="btn bg-cyan-400 text-white">Sign in / Register</button>
             </div>
         </div>
