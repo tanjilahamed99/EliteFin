@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer py-20 px-10 bg-neutral text-neutral-content items-center justify-between">
                 <aside className="space-y-2">
                     <h2 className="text-xl font-medium"><span className="text-cyan-500">Elite</span>Fin</h2>
-                    <p className="text-xl font-bold">Get started to grow up your business <br /> with personal lead manager</p>
+                    <p className="text-xl font-bold">Get started to grow up you business <br /> with personal lead manager</p>
                     <h4 className="text-sm font-bold ">EliteFin, 2023</h4>
                 </aside>
                 <nav>
